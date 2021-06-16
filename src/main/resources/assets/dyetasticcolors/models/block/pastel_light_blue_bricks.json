@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dyetasticcolors:blocks/pastel_light_blue_bricks",
+    "up": "dyetasticcolors:blocks/pastel_light_blue_bricks",
+    "north": "dyetasticcolors:blocks/pastel_light_blue_bricks",
+    "east": "dyetasticcolors:blocks/pastel_light_blue_bricks",
+    "south": "dyetasticcolors:blocks/pastel_light_blue_bricks",
+    "west": "dyetasticcolors:blocks/pastel_light_blue_bricks",
+    "particle": "dyetasticcolors:blocks/pastel_light_blue_bricks"
+  }
+}

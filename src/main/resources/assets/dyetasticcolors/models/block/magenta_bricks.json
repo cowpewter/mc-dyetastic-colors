@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dyetasticcolors:blocks/magenta_bricks",
+    "up": "dyetasticcolors:blocks/magenta_bricks",
+    "north": "dyetasticcolors:blocks/magenta_bricks",
+    "east": "dyetasticcolors:blocks/magenta_bricks",
+    "south": "dyetasticcolors:blocks/magenta_bricks",
+    "west": "dyetasticcolors:blocks/magenta_bricks",
+    "particle": "dyetasticcolors:blocks/magenta_bricks"
+  }
+}

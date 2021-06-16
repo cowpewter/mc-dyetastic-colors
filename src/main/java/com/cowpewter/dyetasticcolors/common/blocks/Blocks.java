@@ -26,8 +26,9 @@ public class Blocks {
     blockList.addAll(Terracotta.generateAllColors());
     // Clay
     blockList.addAll(Clay.generateAllColors());
+    // Bricks
+    blockList.addAll(Bricks.generateAllColors());
 
-    // TODO everything else
 
     return blockList.stream().toArray(INamedBlock[]::new);
   }
