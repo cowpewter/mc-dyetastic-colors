@@ -12,13 +12,10 @@ public class Items {
     // Dye Modifiers
     itemList.add(new NamedItem("color_intensifier", new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
     itemList.add(new NamedItem("color_fader", new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
-
     // Dyes
     itemList.addAll(Dye.generateAllColors());
-
     // Clay Balls
     itemList.addAll(ClayBall.generateAllColors());
-
     // Bricks
     itemList.addAll(Brick.generateAllColors());
 

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dyetasticcolors:blocks/green_clay",
+    "up": "dyetasticcolors:blocks/green_clay",
+    "north": "dyetasticcolors:blocks/green_clay",
+    "east": "dyetasticcolors:blocks/green_clay",
+    "south": "dyetasticcolors:blocks/green_clay",
+    "west": "dyetasticcolors:blocks/green_clay",
+    "particle": "dyetasticcolors:blocks/green_clay"
+  }
+}
