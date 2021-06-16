@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dyetasticcolors:blocks/pastel_yellow_clay",
+    "up": "dyetasticcolors:blocks/pastel_yellow_clay",
+    "north": "dyetasticcolors:blocks/pastel_yellow_clay",
+    "east": "dyetasticcolors:blocks/pastel_yellow_clay",
+    "south": "dyetasticcolors:blocks/pastel_yellow_clay",
+    "west": "dyetasticcolors:blocks/pastel_yellow_clay",
+    "particle": "dyetasticcolors:blocks/pastel_yellow_clay"
+  }
+}

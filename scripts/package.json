@@ -1,0 +1,23 @@
+{
+  "name": "dyetasticcolors-scripts",
+  "version": "0.0.1",
+  "description": "Helper scripts",
+  "main": "index.js",
+  "repository": "https://github.com/cowpewter/mc-dyetastic-colors",
+  "author": "Cade Richard <cade@caderichard.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/generate.js",
+    "dev": "ts-node ./src/generate.ts"
+  },
+  "dependencies": {
+    "@types/node": "^15.12.2",
+    "commander": "^7.2.0",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0"
+  }
+}

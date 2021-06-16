@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dyetasticcolors:blocks/lightest_cyan_clay",
+    "up": "dyetasticcolors:blocks/lightest_cyan_clay",
+    "north": "dyetasticcolors:blocks/lightest_cyan_clay",
+    "east": "dyetasticcolors:blocks/lightest_cyan_clay",
+    "south": "dyetasticcolors:blocks/lightest_cyan_clay",
+    "west": "dyetasticcolors:blocks/lightest_cyan_clay",
+    "particle": "dyetasticcolors:blocks/lightest_cyan_clay"
+  }
+}

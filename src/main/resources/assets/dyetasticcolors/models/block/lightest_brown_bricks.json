@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dyetasticcolors:blocks/lightest_brown_bricks",
+    "up": "dyetasticcolors:blocks/lightest_brown_bricks",
+    "north": "dyetasticcolors:blocks/lightest_brown_bricks",
+    "east": "dyetasticcolors:blocks/lightest_brown_bricks",
+    "south": "dyetasticcolors:blocks/lightest_brown_bricks",
+    "west": "dyetasticcolors:blocks/lightest_brown_bricks",
+    "particle": "dyetasticcolors:blocks/lightest_brown_bricks"
+  }
+}

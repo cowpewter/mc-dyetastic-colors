@@ -11,8 +11,12 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
+# Yeah we got some TS now
+**/node_modules/
+
 .DS_Store
 **/bin/
 **/.vscode/
 **/.settings/
 .classpath
+**/output/

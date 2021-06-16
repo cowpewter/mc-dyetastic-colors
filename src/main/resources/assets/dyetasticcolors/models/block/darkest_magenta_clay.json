@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dyetasticcolors:blocks/darkest_magenta_clay",
+    "up": "dyetasticcolors:blocks/darkest_magenta_clay",
+    "north": "dyetasticcolors:blocks/darkest_magenta_clay",
+    "east": "dyetasticcolors:blocks/darkest_magenta_clay",
+    "south": "dyetasticcolors:blocks/darkest_magenta_clay",
+    "west": "dyetasticcolors:blocks/darkest_magenta_clay",
+    "particle": "dyetasticcolors:blocks/darkest_magenta_clay"
+  }
+}
