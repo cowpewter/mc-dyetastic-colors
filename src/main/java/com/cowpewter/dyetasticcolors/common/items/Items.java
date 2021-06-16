@@ -19,6 +19,9 @@ public class Items {
     // Clay Balls
     itemList.addAll(ClayBall.generateAllColors());
 
+    // Bricks
+    itemList.addAll(Brick.generateAllColors());
+
     return itemList.stream().toArray(NamedItem[]::new);
   }
 }
