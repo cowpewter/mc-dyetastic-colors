@@ -107,10 +107,10 @@ const generateBlockItems = async (colors: String[], name: String) => {
 }
 
 export default {
-  generate: async (name: string) => {
+  generate: async (name: string, all: boolean) => {
     ensureDir(PATH_TO_OUTPUT);
 
-    const colors = generateAllColors();
+    const colors = generateAllColors(all);
     await Promise.all([
       addTranslationString(colors, name),
       generateBlockstates(colors, name),

@@ -17,7 +17,8 @@ const program = new Command();
 program
   .option('-t, --type <type>', 'What are you generating? Supported options: block, item, pane')
   .option('-n, --name <name>', 'Name of thing, will be used like `dark_red_thing`')
-  .option('-d, --debug', 'Show debug output');
+  .option('-d, --debug', 'Show debug output')
+  .option('-a, --all', 'Generate vanilla colors');
 
 program.parse(process.argv);
 
@@ -49,6 +50,6 @@ if (options.debug) {
   console.log(`Running ${options.type} generator for ${options.name}...`);
 }
 
-generator.generate(options.name);
+generator.generate(options.name, options.all);
 
 console.log(`Generation of ${options.type} ${options.name} complete.`);

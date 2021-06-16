@@ -1,5 +1,5 @@
 export interface Generator {
-  generate(name: string): void;
+  generate(name: string, makeVanillaColors: boolean): void;
 }
 
 const capitalize = (s: string) => {

@@ -1,6 +1,7 @@
 const shades = [
   'lightest',
   'pastel',
+  '',
   'dark',
   'darkest',
 ];
@@ -24,7 +25,7 @@ const colors = [
   'black',
 ];
 
-const generateAllColors = (): string[] => {
+const generateAllColors = (generateVanilla: boolean): string[] => {
   const allColors: string[] = [];
   colors.forEach(
     color => shades.forEach(
@@ -35,7 +36,11 @@ const generateAllColors = (): string[] => {
         if (color === 'black' && (shade === 'dark' || shade == 'darkest')) {
           return;
         }
-        allColors.push(`${shade}_${color}`);
+        if (shade.length) {
+          allColors.push(`${shade}_${color}`);
+        } else if (generateVanilla) {
+          allColors.push(color);
+        }
       }
     )
   );

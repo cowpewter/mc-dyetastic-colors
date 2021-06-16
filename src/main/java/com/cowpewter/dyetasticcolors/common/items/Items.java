@@ -13,8 +13,11 @@ public class Items {
     itemList.add(new NamedItem("color_intensifier", new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
     itemList.add(new NamedItem("color_fader", new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
 
-    //Dyes
+    // Dyes
     itemList.addAll(Dye.generateAllColors());
+
+    // Clay Balls
+    itemList.addAll(ClayBall.generateAllColors());
 
     return itemList.stream().toArray(NamedItem[]::new);
   }

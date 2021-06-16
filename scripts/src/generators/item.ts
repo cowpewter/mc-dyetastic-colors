@@ -17,7 +17,7 @@ const addTranslationString = async (colors: string[], name: string) => {
 
   const json: any = {};
   colors.forEach(color => {
-    json[`block.dyetasticcolors.${color}_${name}`] = toTranslated(color, name);
+    json[`item.dyetasticcolors.${color}_${name}`] = toTranslated(color, name);
   });
   
   return fs.writeFile(PATH_TO_TRANSLATIONS_FILE, JSON.stringify(json, undefined, 2));
@@ -45,10 +45,10 @@ const generateModels = async (colors: String[], name: String) => {
 
 
 export default {
-  generate: async (name: string) => {
+  generate: async (name: string, all: boolean) => {
     ensureDir(PATH_TO_OUTPUT);
 
-    const colors = generateAllColors();
+    const colors = generateAllColors(all);
     await Promise.all([
       addTranslationString(colors, name),
       generateModels(colors, name)
